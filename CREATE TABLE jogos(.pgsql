@@ -1,0 +1,7 @@
+CREATE TABLE jogos(
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    genero VARCHAR(255) NOT NULL,
+    plataforma VARCHAR(255) NOT NULL,
+    ano INTEGER NOT NULL
+);
